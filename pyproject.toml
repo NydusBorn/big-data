@@ -7,8 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "polars",
     "plotly",
-    "streamlit",
     "peewee",
     "psycopg2-binary",
-    "jupyter"
+    "jupyter",
 ]
