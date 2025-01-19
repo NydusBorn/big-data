@@ -1,0 +1,9 @@
+services:
+  postgres:
+    container_name: big-postgres
+    restart: unless-stopped
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: pass
+    ports:
+      - 32020:5432
