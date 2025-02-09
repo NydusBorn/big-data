@@ -10,4 +10,9 @@ dependencies = [
     "peewee",
     "psycopg2-binary",
     "jupyter",
+    "seaborn",
+    "statsmodels",
+    "scikit-learn",
+    "pyspark",
+    "pyspark-stubs"
 ]
